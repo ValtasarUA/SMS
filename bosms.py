@@ -6,7 +6,7 @@ from random import choice
 sma =["🔥  ", "✨  ", " 💣   ", "😉   "]
 version = (Fore.WHITE+"1.4")
 headers = {"User-Agent": fake_useragent.UserAgent().random}
-white=["50245089", "955305382"]
+white=["502450890", "955305382"]
 print(Fore.RED+'##########################')
 print(Fore.YELLOW+'#'+Fore.GREEN+'   SMS BOEING\n'+Fore.GREEN+'#'+Fore.BLUE+'   From @Valtasar_UA')
 print(Fore.RED+'##########################')
